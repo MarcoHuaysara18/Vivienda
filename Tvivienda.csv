@@ -1,184 +1,45 @@
-Título;;;;;;;;;;
-V: Tipo de vivienda;;;;;;;;;;
-Área Geográfica;;;;;;;;;;
-Lima;;;;;;;;;;
-Universo;;;;;;;;;;
-Viviendas Particulares;;;;;;;;;;
-;;;;;;;;;;
-;Código;Distrito;Casa Independiente;Departamento en edificio;Vivienda en quinta;Vivienda en casa de vecindad (Callejón, solar o corralón);Choza o cabaña;Vivienda improvisada;Local no destinado para habitación humana;
-;150101;Lima, Lima, distrito: Lima;   40 914;   36 103;   11 461;   2 750;    0;    66;    212;
-;150102;Lima, Lima, distrito: Ancón;   25 428;    884;    28;    62;    0;    548;    25;
-;150103;Lima, Lima, distrito: Ate;   135 872;   34 672;   1 215;   1 132;    0;   5 341;    216;
-;150104;Lima, Lima, distrito: Barranco;   4 832;   6 461;   1 887;    302;    0;    5;    22;
-;150105;Lima, Lima, distrito: Breña;   9 344;   13 635;   5 759;    902;    0;    21;    93;
-;150106;Lima, Lima, distrito: Carabayllo;   93 870;   5 427;    519;    402;    690;   1 170;    131;
-;150107;Lima, Lima, distrito: Chaclacayo;   10 385;   1 192;    61;    43;    0;    22;    10;
-;150108;Lima, Lima, distrito: Chorrillos;   58 261;   18 519;   2 214;    944;    0;    315;    133;
-;150109;Lima, Lima, distrito: Cieneguilla;   11 576;    102;    55;    182;    2;   1 283;    17;
-;150110;Lima, Lima, distrito: Comas;   115 350;   16 806;    334;    526;    0;    579;    178;
-;150111;Lima, Lima, distrito: El Agustino;   38 957;   11 944;    624;    456;    0;    163;    49;
-;150112;Lima, Lima, distrito: Independencia;   47 789;   4 997;    153;    222;    0;    361;    59;
-;150113;Lima, Lima, distrito: Jesús María;   6 236;   19 230;   2 772;    456;    0;    7;    42;
-;150114;Lima, Lima, distrito: La Molina;   25 026;   19 309;    339;    115;    0;    44;    49;
-;150115;Lima, Lima, distrito: La Victoria;   24 532;   27 088;   7 053;   1 932;    0;    52;    275;
-;150116;Lima, Lima, distrito: Lince;   6 550;   12 795;   2 117;    417;    0;    16;    37;
-;150117;Lima, Lima, distrito: Los Olivos;   63 874;   25 436;    252;    290;    0;    95;    159;
-;150118;Lima, Lima, distrito: Lurigancho;   75 004;   5 476;   1 093;    725;    0;   5 642;    137;
-;150119;Lima, Lima, distrito: Lurin;   25 395;   1 639;    506;    286;    0;    181;    88;
-;150120;Lima, Lima, distrito: Magdalena del Mar;   5 864;   14 034;   1 947;    280;    0;    10;    13;
-;150121;Lima, Lima, distrito: Pueblo Libre;   12 042;   16 650;   1 248;    333;    0;    12;    28;
-;150122;Lima, Lima, distrito: Miraflores;   9 336;   38 628;   1 990;    270;    0;    5;    39;
-;150123;Lima, Lima, distrito: Pachacamac;   36 811;    346;    165;    283;    10;   2 649;    40;
-;150124;Lima, Lima, distrito: Pucusana;   6 817;    169;    13;    20;    0;    256;    8;
-;150125;Lima, Lima, distrito: Puente Piedra;   86 724;   5 529;    374;    496;    0;   2 246;    192;
-;150126;Lima, Lima, distrito: Punta Hermosa;   8 022;    859;    15;    38;    0;    387;    7;
-;150127;Lima, Lima, distrito: Punta Negra;   3 691;    16;    2;    18;    8;    30;    6;
-;150128;Lima, Lima, distrito: Rímac;   35 651;   11 351;   4 497;   1 657;    0;    152;    61;
-;150129;Lima, Lima, distrito: San Bartolo;   3 009;    702;    2;    3;    0;    15;    5;
-;150130;Lima, Lima, distrito: San Borja;   13 022;   26 897;    90;    77;    0;    9;    26;
-;150131;Lima, Lima, distrito: San Isidro;   7 475;   19 699;    287;    85;    0;    4;    21;
-;150132;Lima, Lima, distrito: San Juan de Lurigancho;   260 403;   34 097;    961;   1 430;    0;   16 827;    374;
-;150133;Lima, Lima, distrito: San Juan de Miraflores;   76 586;   10 120;    176;    209;    0;    463;    76;
-;150134;Lima, Lima, distrito: San Luis;   7 433;   7 117;    185;    140;    0;    11;    76;
-;150135;Lima, Lima, distrito: San Martín de Porres;   133 620;   42 443;   1 258;   1 257;    0;    283;    239;
-;150136;Lima, Lima, distrito: San Miguel;   21 268;   29 018;   1 798;    568;    0;    16;    29;
-;150137;Lima, Lima, distrito: Santa Anita;   36 490;   18 981;    394;    533;    0;    53;    89;
-;150138;Lima, Lima, distrito: Santa María del Mar;    558;    758;    14;    0;    0;    1;    1;
-;150139;Lima, Lima, distrito: Santa Rosa;   13 593;    70;    8;    9;    0;    674;    5;
-;150140;Lima, Lima, distrito: Santiago de Surco;   46 275;   68 733;   1 714;    664;    0;    58;    68;
-;150141;Lima, Lima, distrito: Surquillo;   11 820;   18 894;   2 818;    653;    0;    16;    77;
-;150142;Lima, Lima, distrito: Villa el Salvador;   86 632;   5 277;    189;    281;    0;    312;    127;
-;150143;Lima, Lima, distrito: Villa María del Triunfo;   101 592;   3 285;    516;    447;    0;   2 286;    86;
-;150201;Lima, Barranca, distrito: Barranca;   19 179;   1 288;    422;    408;    88;    138;    19;
-;150202;Lima, Barranca, distrito: Paramonga;   8 488;    51;    3;    17;    11;    7;    9;
-;150203;Lima, Barranca, distrito: Pativilca;   6 933;    8;    8;    8;    55;    317;    2;
-;150204;Lima, Barranca, distrito: Supe;   7 977;    75;    52;    105;    105;    39;    8;
-;150205;Lima, Barranca, distrito: Supe Puerto;   4 243;    24;    7;    27;    0;    262;    3;
-;150301;Lima, Cajatambo, distrito: Cajatambo;   1 515;    0;    0;    13;    91;    0;    0;
-;150302;Lima, Cajatambo, distrito: Copa;    602;    0;    0;    0;    0;    0;    0;
-;150303;Lima, Cajatambo, distrito: Gorgor;   1 036;    0;    0;    4;    24;    0;    1;
-;150304;Lima, Cajatambo, distrito: Huancapon;    852;    0;    6;    0;    47;    0;    0;
-;150305;Lima, Cajatambo, distrito: Manas;    803;    0;    0;    0;    0;    0;    1;
-;150401;Lima, Canta, distrito: Canta;   1 472;    0;    6;    35;    32;    1;    5;
-;150402;Lima, Canta, distrito: Arahuay;    712;    0;    0;    0;    6;    0;    0;
-;150403;Lima, Canta, distrito: Huamantanga;   1 232;    0;    0;    3;    35;    1;    0;
-;150404;Lima, Canta, distrito: Huaros;    890;    0;    0;    26;    72;    1;    0;
-;150405;Lima, Canta, distrito: Lachaqui;   1 084;    0;    7;    3;    22;    2;    0;
-;150406;Lima, Canta, distrito: San Buenaventura;    470;    0;    0;    0;    0;    0;    0;
-;150407;Lima, Canta, distrito: Santa Rosa de Quives;   2 361;    16;    0;    8;    7;    2;    2;
-;150501;Lima, Cañete, distrito: San Vicente de Cañete;   24 733;    841;    116;    151;    88;    445;    26;
-;150502;Lima, Cañete, distrito: Asia;   6 285;    2;    0;    15;    0;    17;    5;
-;150503;Lima, Cañete, distrito: Calango;   1 314;    0;    11;    0;    17;    2;    0;
-;150504;Lima, Cañete, distrito: Cerro Azul;   5 005;    162;    21;    14;    4;    54;    3;
-;150505;Lima, Cañete, distrito: Chilca;   6 643;    32;    31;    50;    13;    42;    10;
-;150506;Lima, Cañete, distrito: Coayllo;    985;    0;    0;    2;    113;    1;    1;
-;150507;Lima, Cañete, distrito: Imperial;   11 150;    208;    126;    80;    0;    495;    11;
-;150508;Lima, Cañete, distrito: Lunahuana;   2 182;    37;    3;    11;    8;    7;    1;
-;150509;Lima, Cañete, distrito: Mala;   9 691;    195;    95;    100;    22;    73;    7;
-;150510;Lima, Cañete, distrito: Nuevo Imperial;   9 377;    8;    11;    16;    43;    256;    6;
-;150511;Lima, Cañete, distrito: Pacaran;    857;    0;    0;    0;    2;    0;    0;
-;150512;Lima, Cañete, distrito: Quilmana;   6 360;    24;    4;    19;    4;    116;    3;
-;150513;Lima, Cañete, distrito: San Antonio;   2 704;    32;    0;    5;    2;    51;    6;
-;150514;Lima, Cañete, distrito: San Luis;   4 189;    12;    47;    9;    52;    51;    7;
-;150515;Lima, Cañete, distrito: Santa Cruz de Flores;   1 543;    0;    2;    0;    3;    36;    4;
-;150516;Lima, Cañete, distrito: Zúñiga;    693;    0;    0;    0;    0;    0;    0;
-;150601;Lima, Huaral, distrito: Huaral;   27 239;   1 759;    461;    603;    29;    130;    32;
-;150602;Lima, Huaral, distrito: Atavillos Alto;   1 163;    0;    0;    0;    40;    0;    1;
-;150603;Lima, Huaral, distrito: Atavillos Bajo;    961;    0;    0;    0;    3;    0;    0;
-;150604;Lima, Huaral, distrito: Aucallama;   6 606;    18;    21;    15;    7;    144;    1;
-;150605;Lima, Huaral, distrito: Chancay;   16 404;    625;    342;    115;    13;    321;    12;
-;150606;Lima, Huaral, distrito: Ihuari;   1 701;    0;    0;    0;    43;    0;    0;
-;150607;Lima, Huaral, distrito: Lampian;    419;    0;    0;    0;    0;    0;    0;
-;150608;Lima, Huaral, distrito: Pacaraos;    996;    0;    0;    21;    39;    0;    2;
-;150609;Lima, Huaral, distrito: San Miguel de Acos;    446;    0;    0;    8;    0;    1;    0;
-;150610;Lima, Huaral, distrito: Santa Cruz de Andamarca;    411;    0;    0;    0;    0;    0;    0;
-;150611;Lima, Huaral, distrito: Sumbilca;   1 388;    0;    2;    0;    6;    1;    1;
-;150612;Lima, Huaral, distrito: Veintisiete de Noviembre;    388;    0;    0;    0;    8;    0;    0;
-;150701;Lima, Huarochirí, distrito: Matucana;   2 156;    7;    17;    36;    128;    2;    0;
-;150702;Lima, Huarochirí, distrito: Antioquia;    928;    0;    0;    0;    4;    0;    3;
-;150703;Lima, Huarochirí, distrito: Callahuanca;    406;    0;    0;    0;    0;    0;    0;
-;150704;Lima, Huarochirí, distrito: Carampoma;    342;    0;    0;    0;    31;    0;    0;
-;150705;Lima, Huarochirí, distrito: Chicla;    915;    18;    39;    388;    3;    1;    0;
-;150706;Lima, Huarochirí, distrito: Cuenca;    348;    0;    0;    0;    3;    1;    1;
-;150707;Lima, Huarochirí, distrito: Huachupampa;    268;    0;    2;    4;    17;    0;    1;
-;150708;Lima, Huarochirí, distrito: Huanza;    473;    0;    0;    0;    16;    0;    1;
-;150709;Lima, Huarochirí, distrito: Huarochirí;   1 183;    0;    0;    21;    9;    1;    0;
-;150710;Lima, Huarochirí, distrito: Lahuaytambo;    630;    0;    0;    0;    9;    0;    0;
-;150711;Lima, Huarochirí, distrito: Langa;    994;    0;    7;    16;    4;    0;    0;
-;150712;Lima, Huarochirí, distrito: San Pedro de Laraos;    249;    0;    0;    0;    8;    0;    0;
-;150713;Lima, Huarochirí, distrito: Mariatana;    895;    0;    0;    0;    90;    1;    2;
-;150714;Lima, Huarochirí, distrito: Ricardo Palma;   1 758;    88;    60;    16;    0;    142;    0;
-;150715;Lima, Huarochirí, distrito: San Andrés de Tupicocha;    755;    0;    0;    3;    3;    2;    1;
-;150716;Lima, Huarochirí, distrito: San Antonio;    551;    0;    0;    0;    169;    0;    2;
-;150717;Lima, Huarochirí, distrito: San Bartolomé;    816;    0;    2;    0;    89;    3;    2;
-;150718;Lima, Huarochirí, distrito: San Damian;    769;    0;    43;    23;    102;    0;    0;
-;150719;Lima, Huarochirí, distrito: San Juan de Iris;    170;    0;    0;    0;    6;    0;    1;
-;150720;Lima, Huarochirí, distrito: San Juan de Tantaranche;    243;    0;    3;    0;    41;    0;    0;
-;150721;Lima, Huarochirí, distrito: San Lorenzo de Quinti;   1 101;    0;    30;    2;    77;    6;    1;
-;150722;Lima, Huarochirí, distrito: San Mateo;   1 754;    15;    33;    22;    40;    0;    7;
-;150723;Lima, Huarochirí, distrito: San Mateo de Otao;   1 020;    0;    0;    0;    24;    0;    0;
-;150724;Lima, Huarochirí, distrito: San Pedro de Casta;    551;    0;    0;    0;    0;    1;    0;
-;150725;Lima, Huarochirí, distrito: San Pedro de Huancayre;    169;    0;    0;    0;    35;    0;    0;
-;150726;Lima, Huarochirí, distrito: Sangallaya;    555;    0;    0;    6;    6;    0;    0;
-;150727;Lima, Huarochirí, distrito: Santa Cruz de Cocachacra;    870;    0;    0;    12;    0;    1;    1;
-;150728;Lima, Huarochirí, distrito: Santa Eulalia;   2 990;    45;    19;    6;    2;    25;    12;
-;150729;Lima, Huarochirí, distrito: Santiago de Anchucaya;    277;    0;    5;    5;    10;    1;    0;
-;150730;Lima, Huarochirí, distrito: Santiago de Tuna;    533;    0;    8;    0;    0;    0;    1;
-;150731;Lima, Huarochirí, distrito: Santo Domingo de los Olleros;   1 383;    0;    0;    0;    240;    1;    1;
-;150732;Lima, Huarochirí, distrito: Surco;    766;    0;    2;    11;    13;    1;    1;
-;150801;Lima, Huaura, distrito: Huacho;   19 264;   2 409;    627;    467;    21;   2 450;    15;
-;150802;Lima, Huaura, distrito: Ambar;   1 255;    0;    0;    0;    65;    0;    0;
-;150803;Lima, Huaura, distrito: Caleta de Carquin;   1 618;    94;    2;    3;    21;    2;    2;
-;150804;Lima, Huaura, distrito: Checras;    991;    0;    0;    6;    25;    1;    2;
-;150805;Lima, Huaura, distrito: Hualmay;   7 681;    429;    178;    274;    0;    22;    10;
-;150806;Lima, Huaura, distrito: Huaura;   10 319;    174;    23;    53;    28;    16;    7;
-;150807;Lima, Huaura, distrito: Leoncio Prado;   1 259;    0;    0;    0;    3;    1;    0;
-;150808;Lima, Huaura, distrito: Paccho;   1 305;    0;    0;    0;    0;    0;    0;
-;150809;Lima, Huaura, distrito: Santa Leonor;    754;    0;    0;    0;    4;    0;    1;
-;150810;Lima, Huaura, distrito: Santa María;   12 880;    177;    99;    143;    126;    173;    11;
-;150811;Lima, Huaura, distrito: Sayan;   7 847;    5;    25;    97;    181;    453;    10;
-;150812;Lima, Huaura, distrito: Vegueta;   10 115;    2;    3;    56;    22;    998;    1;
-;150901;Lima, Oyón, distrito: Oyón;   3 803;    12;    82;    396;    145;    3;    1;
-;150902;Lima, Oyón, distrito: Andajes;    650;    0;    0;    2;    45;    0;    0;
-;150903;Lima, Oyón, distrito: Caujul;    398;    0;    0;    0;    7;    0;    3;
-;150904;Lima, Oyón, distrito: Cochamarca;    570;    0;    0;    0;    0;    0;    0;
-;150905;Lima, Oyón, distrito: Navan;    568;    0;    0;    0;    5;    0;    0;
-;150906;Lima, Oyón, distrito: Pachangara;   1 155;    0;    0;    8;    4;    11;    0;
-;151001;Lima, Yauyos, distrito: Yauyos;   1 163;    0;    2;    7;    15;    0;    0;
-;151002;Lima, Yauyos, distrito: Alis;    248;    0;    0;    0;    0;    0;    0;
-;151003;Lima, Yauyos, distrito: Allauca;    752;    0;    0;    0;    13;    1;    1;
-;151004;Lima, Yauyos, distrito: Ayaviri;    430;    0;    0;    5;    0;    0;    0;
-;151005;Lima, Yauyos, distrito: Azangaro;    348;    0;    0;    0;    0;    0;    1;
-;151006;Lima, Yauyos, distrito: Cacra;    424;    0;    0;    0;    0;    5;    3;
-;151007;Lima, Yauyos, distrito: Carania;    229;    0;    2;    0;    9;    0;    0;
-;151008;Lima, Yauyos, distrito: Catahuasi;    628;    0;    0;    0;    18;    0;    0;
-;151009;Lima, Yauyos, distrito: Chocos;    579;    0;    0;    0;    3;    10;    0;
-;151010;Lima, Yauyos, distrito: Cochas;    116;    0;    0;    0;    14;    0;    0;
-;151011;Lima, Yauyos, distrito: Colonia;    963;    0;    0;    27;    18;    9;    0;
-;151012;Lima, Yauyos, distrito: Hongos;    255;    0;    0;    0;    0;    0;    1;
-;151013;Lima, Yauyos, distrito: Huampara;    241;    0;    0;    5;    0;    0;    1;
-;151014;Lima, Yauyos, distrito: Huancaya;    279;    0;    0;    0;    22;    0;    0;
-;151015;Lima, Yauyos, distrito: Huangascar;    429;    0;    0;    0;    5;    7;    0;
-;151016;Lima, Yauyos, distrito: Huantan;    517;    0;    0;    0;    17;    0;    0;
-;151017;Lima, Yauyos, distrito: Huañec;    377;    0;    0;    0;    0;    0;    0;
-;151018;Lima, Yauyos, distrito: Laraos;    442;    0;    0;    0;    9;    0;    1;
-;151019;Lima, Yauyos, distrito: Lincha;    337;    0;    0;    0;    0;    0;    0;
-;151020;Lima, Yauyos, distrito: Madean;    487;    0;    0;    0;    21;    0;    0;
-;151021;Lima, Yauyos, distrito: Miraflores;    204;    0;    0;    0;    0;    0;    0;
-;151022;Lima, Yauyos, distrito: Omas;    568;    0;    0;    0;    0;    0;    0;
-;151023;Lima, Yauyos, distrito: Putinza;    294;    0;    0;    0;    0;    0;    0;
-;151024;Lima, Yauyos, distrito: Quinches;    864;    0;    0;    13;    2;    0;    2;
-;151025;Lima, Yauyos, distrito: Quinocay;    376;    0;    0;    0;    48;    0;    0;
-;151026;Lima, Yauyos, distrito: San Joaquín;    128;    0;    0;    0;    0;    0;    1;
-;151027;Lima, Yauyos, distrito: San Pedro de Pilas;    381;    0;    0;    0;    0;    0;    0;
-;151028;Lima, Yauyos, distrito: Tanta;    269;    0;    0;    0;    0;    0;    1;
-;151029;Lima, Yauyos, distrito: Tauripampa;    394;    0;    0;    0;    2;    0;    0;
-;151030;Lima, Yauyos, distrito: Tomas;    331;    0;    0;    0;    46;    0;    1;
-;151031;Lima, Yauyos, distrito: Tupe;    311;    0;    0;    0;    12;    14;    1;
-;151032;Lima, Yauyos, distrito: Viñac;   1 019;    0;    0;    0;    41;    0;    0;
-;151033;Lima, Yauyos, distrito: Vitis;    143;    0;    0;    0;    10;    0;    0;
-;TOTAL;;  2 179 387;   644 280;   62 220;   25 919;   4 070;   50 064;   3 929;
-;;;;;;;;;;
-Fuente: Censos Nacionales de Población y Vivienda 2017;;;;;;;;;;
-Instituto Nacional de Estadística e Informática (INEI) - PERÚ;;;;;;;;;;
-;;;;;;;;;;
+Distrito;Casa Independiente;Departamento en edificio;Vivienda en quinta;Vivienda en casa de vecindad (Callejón, solar o corralón);Choza o cabaña;Vivienda improvisada;Local no destinado para habitación humana
+Lima, Lima, distrito: Lima;   40 914;   36 103;   11 461;   2 750;0;66;212
+Lima, Lima, distrito: Ancón;   25 428;884;28;62;0;548;25
+Lima, Lima, distrito: Ate;   135 872;   34 672;   1 215;   1 132;0;   5 341;216
+Lima, Lima, distrito: Barranco;   4 832;   6 461;   1 887;302;0;5;22
+Lima, Lima, distrito: Breña;   9 344;   13 635;   5 759;902;0;21;93
+Lima, Lima, distrito: Carabayllo;   93 870;   5 427;519;402;690;   1 170;131
+Lima, Lima, distrito: Chaclacayo;   10 385;   1 192;61;43;0;22;10
+Lima, Lima, distrito: Chorrillos;   58 261;   18 519;   2 214;944;0;315;133
+Lima, Lima, distrito: Cieneguilla;   11 576;102;55;182;2;   1 283;17
+Lima, Lima, distrito: Comas;   115 350;   16 806;334;526;0;579;178
+Lima, Lima, distrito: El Agustino;   38 957;   11 944;624;456;0;163;49
+Lima, Lima, distrito: Independencia;   47 789;   4 997;153;222;0;361;59
+Lima, Lima, distrito: Jesús María;   6 236;   19 230;   2 772;456;0;7;42
+Lima, Lima, distrito: La Molina;   25 026;   19 309;339;115;0;44;49
+Lima, Lima, distrito: La Victoria;   24 532;   27 088;   7 053;   1 932;0;52;275
+Lima, Lima, distrito: Lince;   6 550;   12 795;   2 117;417;0;16;37
+Lima, Lima, distrito: Los Olivos;   63 874;   25 436;252;290;0;95;159
+Lima, Lima, distrito: Lurigancho;   75 004;   5 476;   1 093;725;0;   5 642;137
+Lima, Lima, distrito: Lurin;   25 395;   1 639;506;286;0;181;88
+Lima, Lima, distrito: Magdalena del Mar;   5 864;   14 034;   1 947;280;0;10;13
+Lima, Lima, distrito: Pueblo Libre;   12 042;   16 650;   1 248;333;0;12;28
+Lima, Lima, distrito: Miraflores;   9 336;   38 628;   1 990;270;0;5;39
+Lima, Lima, distrito: Pachacamac;   36 811;346;165;283;10;   2 649;40
+Lima, Lima, distrito: Pucusana;   6 817;169;13;20;0;256;8
+Lima, Lima, distrito: Puente Piedra;   86 724;   5 529;374;496;0;   2 246;192
+Lima, Lima, distrito: Punta Hermosa;   8 022;859;15;38;0;387;7
+Lima, Lima, distrito: Punta Negra;   3 691;16;2;18;8;30;6
+Lima, Lima, distrito: Rímac;   35 651;   11 351;   4 497;   1 657;0;152;61
+Lima, Lima, distrito: San Bartolo;   3 009;702;2;3;0;15;5
+Lima, Lima, distrito: San Borja;   13 022;   26 897;90;77;0;9;26
+Lima, Lima, distrito: San Isidro;   7 475;   19 699;287;85;0;4;21
+Lima, Lima, distrito: San Juan de Lurigancho;   260 403;   34 097;961;   1 430;0;   16 827;374
+Lima, Lima, distrito: San Juan de Miraflores;   76 586;   10 120;176;209;0;463;76
+Lima, Lima, distrito: San Luis;   7 433;   7 117;185;140;0;11;76
+Lima, Lima, distrito: San Martín de Porres;   133 620;   42 443;   1 258;   1 257;0;283;239
+Lima, Lima, distrito: San Miguel;   21 268;   29 018;   1 798;568;0;16;29
+Lima, Lima, distrito: Santa Anita;   36 490;   18 981;394;533;0;53;89
+Lima, Lima, distrito: Santa María del Mar;558;758;14;0;0;1;1
+Lima, Lima, distrito: Santa Rosa;   13 593;70;8;9;0;674;5
+Lima, Lima, distrito: Santiago de Surco;   46 275;   68 733;   1 714;664;0;58;68
+Lima, Lima, distrito: Surquillo;   11 820;   18 894;   2 818;653;0;16;77
+Lima, Lima, distrito: Villa el Salvador;   86 632;   5 277;189;281;0;312;127
+Lima, Lima, distrito: Villa María del Triunfo;   101 592;   3 285;516;447;0;   2 286;86
+Lima, Yauyos, distrito: Miraflores;204;0;0;0;0;0;0
